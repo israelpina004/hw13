@@ -198,7 +198,7 @@ void update_data() {
 	//Reads from stdin the entry that will be modified.
 	char line1[5];
 	printf("What entry would you like to modify? ");
-	fgets(line1, 3, stdin);
+	fgets(line1, 5, stdin);
 	int entry;
 	sscanf(line1, "%d", &entry);
 
